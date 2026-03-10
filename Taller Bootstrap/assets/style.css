@@ -1,3 +1,26 @@
 /* FUENTES Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* Configuración para Títulos y Subtítulos */
+h1, h2, h3 {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Peso para títulos, puedes ajustarlo */
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+/* Configuración para Párrafos y Enlaces */
+p, a {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Peso normal para lectura */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Opcional: Asegúrate de que los enlaces no pierdan el estilo al interactuar */
+a:visited, a:hover {
+  font-family: "Open Sans", sans-serif;
+}
+
